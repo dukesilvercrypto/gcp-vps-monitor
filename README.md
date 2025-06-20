@@ -1,12 +1,16 @@
 # 🚀 GCP VPS Monitor  
 *A real-time terminal dashboard for Google Cloud VPS resources.*  
 
-## ✨ Features  
-- **CPU**: Usage, load avg, core count  
-- **Memory**: RAM + Swap usage  
-- **Disk**: Root FS + Inodes  
-- **Network**: Public + Internal IP  
-- **UI**: Colorful, easy-to-read output  
+## ✨ Features
+
+- **System Overview**: Hostname, OS, uptime, and GCP metadata
+- **CPU Monitoring**: Usage, load averages, temperature, and core count
+- **Memory Analysis**: RAM and swap usage with percentages
+- **Disk Statistics**: Root filesystem usage and inode counts
+- **Network Info**: Public + internal IPs and bandwidth usage
+- **Storage Scanner**: Top large files/folders identification
+- **GCP Integration**: Automatic instance metadata detection
+- **Beautiful UI**: Color-coded, well-organized terminal output 
 
 ## 🛠️ Installation  
 ```bash
