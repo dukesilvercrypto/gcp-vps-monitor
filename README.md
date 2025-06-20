@@ -13,7 +13,6 @@
 # One-liner (run directly):
 curl -s https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-monitor/main/gcp_status.sh | bash
 
-```bash
 # Install as a global command:
 sudo curl -o /usr/local/bin/gcpstatus https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-monitor/main/gcp_status.sh
 sudo chmod +x /usr/local/bin/gcpstatus
