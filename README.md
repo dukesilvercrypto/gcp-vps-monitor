@@ -13,11 +13,18 @@
 - **Beautiful UI**: Color-coded, well-organized terminal output 
 
 ## 🛠️ Installation  
-```bash
-# One-liner (run directly):
-curl -s https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-monitor/main/gcp_status.sh | bash
 
-# Install as a global command:
+- One-liner (run directly):
+```bash
+curl -s https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-monitor/main/gcp_status.sh | bash
+```
+- Install as a global command:
+```bash
 sudo curl -o /usr/local/bin/gcpstatus https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-monitor/main/gcp_status.sh
 sudo chmod +x /usr/local/bin/gcpstatus
-gcpstatus  # Run anytime!
+gcpstatus
+```
+- Run anytime:
+```bash
+gcpstatus
+```
