@@ -55,7 +55,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/dukesilvercrypto/gcp-vps-moni
 
 | Command               | Description                          | Output Example |
 |-----------------------|--------------------------------------|----------------|
-| `sysmon`              | Full interactive dashboard | [Screenshot](#) |
+| `sysmon`              | Full interactive dashboard | [Screenshot](https://i.imgur.com/ttsqVK6.png) |
 | `sysmon --quick`      | Minimalist single-screen view | `CPU: 24% 62°C` |
 | `sysmon --security`   | Security-focused report | `3 failed logins` |
 | `sysmon --cloud`      | Enhanced cloud metadata | `GCP: e2-standard-2` |
